@@ -22,7 +22,7 @@ extract($_POST, EXTR_PREFIX_SAME, "post");
 	} else if ($month == "sept") {
 		$message = "September, You are lucky, three times in a row";
 	} else if ($month == "oct") {
-		$message = "October, You are easily squared, you will become smaller";
+		$message = "October, You are easily divided, prepare to be conflicted";
 	} else if ($month == "nov") {
 		$message = "November, You contain three threes, be prepared for anything!";
 	} else if ($month == "dec") {
