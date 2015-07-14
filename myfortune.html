@@ -1,0 +1,70 @@
+<body>
+<h3>Get your fortune for today here!</h3>
+<form method="POST" action="myfortune.php">
+<table>
+<tr>
+<td align="right">
+Name:
+</td>
+<td align="left">
+<input type="text" size="25" name="name" value="">
+</td>
+</tr>
+<tr>
+<td align="right">
+Email:
+</td><td align="left">
+<input type="text" size="25" name="email1" value="">
+</td>
+</tr>
+<tr>
+<td align="right">
+Month of birth:
+</td>
+<td align="left">
+<select name="month">
+<option value="" />Please choose...
+<option value="jan" />January.
+<option value="feb" />February
+<option value="march" />March
+<option value="april" />April
+<option value="may" />May
+<option value="june" />June
+<option value="july" />July
+<option value="aug" />August
+<option value="sept" />September
+<option value="oct" />October
+<option value="nov" />November
+<option value="dec" />December
+</select>
+</td>
+</tr>
+<tr>
+<td align="right" valign="top">
+What is your favorite bird:
+</td>
+<td align="left">
+<textarea name="bird" cols="30" rows="2">
+</textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="update1" checked="checked">Please email me my fortune for tomorrow.<br/>
+<input type="checkbox" name="update2">Please email my personal actuary my fortune for today.<br/>
+<tr>
+<td align="right">
+Actuary&apos;s Email:
+</td><td align="left">
+<input type="text" size="25" name="email2" value="">
+</td>
+</tr>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="SUBMIT" />
+</td></tr>
+</table>
+</form>
+</body>
